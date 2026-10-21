@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <!-- sematic tags and none sematic tags -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">ទំព័រដើម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">អំណីពួកយើង</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">ផលិតផល</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">ទំនាក់ទំនង</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="./assets/images/banners/image1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/images/banners/image2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/images/banners/image3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <h5 class="text-center text-dark mt-3 mb-4">ប្រភេទទំនិញ</h5>
+        <div class="row g-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card cate-card">
+                    <img src="./assets/images/categories/laptop.png" alt="card-img-top w-100">
+                    <div class="card-body">
+                        <a href="shop.html#laptop" class="card-title">Laptop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card cate-card">
+                    <img src="./assets/images/categories/accessory.png" alt="card-img-top w-100">
+                    <div class="card-body">
+                        <a href="shop.html#accessory" class="card-title">Accessory</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card cate-card">
+                    <img src="./assets/images/categories/desktop.png" alt="card-img-top w-100">
+                    <div class="card-body">
+                        <a href="shop.html#desktop" class="card-title">Desktop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card cate-card">
+                    <img src="./assets/images/categories/monitor.png" alt="card-img-top w-100">
+                    <div class="card-body">
+                        <a href="shop.html#monitor" class="card-title">Monitor</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card cate-card">
+                    <img src="./assets/images/categories/component.png" alt="card-img-top w-100">
+                    <div class="card-body">
+                        <a href="shop.html#component" class="card-title">Component</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card cate-card">
+                    <img src="./assets/images/categories/networkking.png" alt="card-img-top w-100">
+                    <div class="card-body">
+                        <a href="shop.html#networking" class="card-title">Networking</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Battambang";
+    src: url('../fonts/Battambang/Battambang-Regular.ttf');
+}
+@font-face {
+    font-family: "Koulen";
+    src: url('../fonts/Koulen/Koulen-Regular.ttf');
+}
+@font-face {
+    font-family: "Open_Sans";
+    src: url('../fonts/Open_Sans/static/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: "OpenSemiBold";
+    src: url('../fonts/Open_Sans/static/OpenSans-SemiBold.ttf');
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Koulen","OpenSemiBold";
+    color: rgb(130, 130, 255);
+}
+body{
+    font-family: "Battambang","OpenSemiBold";
+}
+.nav-link:hover{
+    color: aquamarine;
+    scale: 1.3s;
+    transition: 1s;
+}
+/* .container{
+    margin-top: 20px;
+}
+.card-img-top{
+    border-radius: 10px;
+}
+.carousel-inner{
+    border-radius: 10px;
+}
+.card{
+    border-radius: 10px;
+    overflow-y: hidden;
+    width: 100%;
+}
+.card-img-top{
+    overflow-y: hidden;
+    width: auto;
+} */ 
+.cate-card{
+    padding: 15px;
+}
+.cate-card img{
+    height: 82px;
+    object-fit: contain;
+}
+.cate-card img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+.card-body{
+    text-align: center;
+}
